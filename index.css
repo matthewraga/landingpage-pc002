@@ -1,0 +1,66 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Tahoma', sans-serif;
+}
+
+nav {
+	padding: 8px;
+	margin-bottom: 32px;
+	text-align: center;
+	background-color: gray;
+}
+/*margin vs padding*/
+/*margin is best used when creating space between elements*/
+/*padding is best used when creating space between an element's border and it's content*/
+
+#landing {
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	text-align: center;
+}
+
+.header {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+#apply {
+	color: white;
+	background-color: slategrey;
+	padding: 8px;
+	font-size: 16px;
+	margin-top: 16px;
+}
+
+#succeed-info {
+	/*vw in CSS stands for "viewport width". It's a unit of measurement that represents a percetange of viewport width.*/
+	padding-left: 15vw;
+	padding-right: 15vw;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.card {
+	text-align: center;
+	/*allows the divs to appear beside each other*/
+	display: inline-block;
+	/*aligns elements with the tallest element in line*/
+	/*used with "inline-block" value*/
+	vertical-align: top;
+	width: 300px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+footer {
+	padding: 16px;
+	text-align: center;
+}
